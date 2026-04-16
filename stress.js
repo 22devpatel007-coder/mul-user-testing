@@ -1,7 +1,7 @@
 const axios = require('axios');
 
-// const TARGET_URL = 'http://localhost:3000/api/heavy'; // change endpoint
-const TARGET_URL = 'https://rentalhub.42web.io/'; // change endpoint
+const TARGET_URL = 'http://localhost:3000/api/heavy'; // change endpoint
+
 const CONCURRENT_USERS = 50;  // try 10 → 20 → 50 → 100
 const REQUESTS_PER_USER = 20;
 
